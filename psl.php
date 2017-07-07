@@ -35,7 +35,7 @@ if (!is_null($events['events'])) {
               //  'type' => 'text',
                // 'text' => $text.":".$latlong    //."  [".$KVA." KVA]"
              'type' => 'image',
-             'image'=> "https://pea-smart-location.herokuapp.com/6.jpg"
+             'image'=> "http://peas1.pea.co.th/photaram/images/images/554-1.jpg"
             ];
  
             // Make a POST Request to Messaging API to reply to sender
