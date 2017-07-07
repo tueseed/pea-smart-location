@@ -32,10 +32,10 @@ if (!is_null($events['events'])) {
          
             // Build message to reply back
             $messages = [
-                'type' => 'text',
-                'text' => $text.":".$latlong    //."  [".$KVA." KVA]"
-            // 'type' => 'image',
-            // 'previewImageUrl'=> "https://pea-smart-location.herokuapp.com/6.jpg"
+              //  'type' => 'text',
+               // 'text' => $text.":".$latlong    //."  [".$KVA." KVA]"
+             'type' => 'image',
+             'image'=> "https://pea-smart-location.herokuapp.com/6.jpg"
             ];
  
             // Make a POST Request to Messaging API to reply to sender
