@@ -32,8 +32,10 @@ if (!is_null($events['events'])) {
          
             // Build message to reply back
             $messages = [
-                'type' => 'text',
-                'text' => $text.":".$latlong    //."  [".$KVA." KVA]"
+                //'type' => 'text',
+                //'text' => $text.":".$latlong    //."  [".$KVA." KVA]"
+             'type' => 'image',
+             "previewImageUrl": "https://drive.google.com/open?id=0B4BTAaYsG0CpMG5rOGtZT1RodzA"
             ];
  
             // Make a POST Request to Messaging API to reply to sender
