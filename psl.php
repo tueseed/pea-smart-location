@@ -60,4 +60,4 @@ if (!is_null($events['events'])) {
         }
     }
 }
-echo "OKJA";
+echo "OKJAA";
