@@ -1,5 +1,6 @@
 <?php
-$access_token = 'cDjXFcuZZXUBBLDfuZMdN4ZQ+fQWYsLymnfPXJBPpAUkbKloX8MV3UPBjIZI0FJGHVfyfJR7M+HNdQB9CMdThwGDMiV+JlfwPTNukX1cgzjIWEu1aYU64DVTRFjthj1XCA8NQvKPKSk2Ei7KteCPhgdB04t89/1O/w1cDnyilFU=';
+//pea smart location 2
+$access_token = 'i8pgQoo1ZFuMioV3NR4s7fGT6GiyFswMdJpvuz2W1QgzAJUodjXJrJbNQwUYLSvUpXkVy2tp97OmnGnXgARllq81RWRdzXrsbTAFHW6MnK2DnVDJyF5mIocnSSTrf9ucBCadTwV7+FdQzBXhkw1ToQdB04t89/1O/w1cDnyilFU=';
  
 // Get POST body content
 $content = file_get_contents('php://input');
